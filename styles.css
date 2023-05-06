@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+body {
+  background: rgb(42,71,94);
+  background: -moz-linear-gradient(0deg, rgba(42,71,94,1) 0%, rgba(42,71,94,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(42,71,94,1) 0%, rgba(42,71,94,1) 100%);
+  background: linear-gradient(0deg, rgba(42,71,94,1) 0%, rgba(42,71,94,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a475e",endColorstr="#2a475e",GradientType=1);
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 1rem 0;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+#input {
+  padding: 8px 4px;
+  border-radius: 4px;
+  width: 300px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 80px;
+}
+
+main button {
+  padding: 1rem;
+  background-color: #1887e1;
+  border-color: #1887e1;
+  box-shadow: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.result {
+  color: white;
+}
